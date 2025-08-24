@@ -22,6 +22,7 @@ git clone https://github.com/WolframGit/UdpChat
 cd UdpChat
 ````
 **RU: Кто согласился быть хостом для чата, должен запустить "server.py". Остальные запускают "client.py"**
+
 **EN: Whoever agreed to host the chat must run "server.py". The rest run "client.py"**
 
 <p align='center', width='100%'>

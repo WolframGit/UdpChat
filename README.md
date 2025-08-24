@@ -23,9 +23,9 @@ cd UdpChat
 
 python server.py or client.py
 ````
-**RU: Кто согласился быть хостом для чата, должен запустить "server.py". Остальные запускают "client.py"**
+**RU: Кто согласился быть хостом для чата, должен запустить "server.py". Остальные запускают "client.py". P.s - Данный репозиторий будет обновляться**
 
-**EN: Whoever agreed to host the chat must run "server.py". The rest run "client.py"**
+**EN: Whoever agreed to host the chat must run "server.py". The rest run "client.py". P.s - This repository will be updated**
 
 <p align='center', width='100%'>
   <img width='20%', src='https://i.ibb.co/HXmPjDm/heart3.png'>

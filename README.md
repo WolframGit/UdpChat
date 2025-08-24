@@ -20,6 +20,8 @@ sudo apt install git -y
 git clone https://github.com/WolframGit/UdpChat
 
 cd UdpChat
+
+python server.py or client.py
 ````
 **RU: Кто согласился быть хостом для чата, должен запустить "server.py". Остальные запускают "client.py"**
 

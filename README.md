@@ -4,14 +4,14 @@
 <h1 align='center', width='100%'>UdpChat!</h2>
 
 ### Преимущества / Advantages
-- Высокая скорость и низкая задержка / High speed and low latency
-- Эффективность и простота / Efficiency and simplicity
-- Поддержка рассылок / Mailing list support
+- **Высокая скорость и низкая задержка / High speed and low latency**
+- **Эффективность и простота / Efficiency and simplicity**
+- **Поддержка рассылок / Mailing list support**
 
 ### Поддержка / Support
-- Windows
-- Linux
-- Termux
+- **Windows**
+- **Linux**
+- **Termux**
 
 ### Установка / Install
 ````

@@ -8,11 +8,13 @@ from time import sleep as s
 SYSTEM = platform.system()
 UDP_MAX_SIZE = 65535
 
+
 def clear_terminal():
     if SYSTEM == 'Windows':
         os.system('cls')
     else:
         os.system('clear')
+
 
 def host_validate(ip):
     try:
@@ -23,6 +25,7 @@ def host_validate(ip):
         s(2)
         clear_terminal()
         client_started(str(input('Введите ваш IPv4 -> ')))
+
 
 def listening_message(client: socket.socket, addr_server):
     while True:
@@ -44,16 +47,17 @@ def listening_message(client: socket.socket, addr_server):
                     continue
             except json.JSONDecodeError:
                 pass
-            
-            print(f'\r\r{msg.decode('utf-8')}\nYou: ', end='')
+
+            print(f'\r\r{msg.decode("utf-8")}\nYou: ', end='')
         except Exception as e:
             print(f'\r\rПроизошла ошибка при получении сообщения: {e}\nYou: ', end='')
+
 
 def client_started(host, port: int = 8000):
     try:
         if not host_validate(host):
             client_started(str(input('Введите ваш IPv4 -> ')))
-        
+
         pass
     except Exception as e:
         print(f'Произошла ошибка... - {e}')
@@ -76,6 +80,6 @@ def client_started(host, port: int = 8000):
             s(2)
 
 
-if __name__=='__main__':
+if __name__ == '__main__':
     clear_terminal()
     client_started(str(input('Введите ваш IPv4 -> ')))
